@@ -7,13 +7,13 @@ function draw() {
   background(220);
   noFill();
   square(0, 200, 200);
-  drawNetherWhatIDontKnow();
+  drawWitherSkelly();
   drawCow();
   drawEnderMite();
   drawSlime();
 }
 
-function drawNetherWhatIDontKnow() {
+function drawWitherSkelly() {
   translate(0, 200);
   noStroke();
   
