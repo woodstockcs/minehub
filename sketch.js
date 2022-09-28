@@ -404,4 +404,6 @@ function bee() {
    fill(32,31,39,255)
   square(36, 142, 36 )
   
+  translation(-200,0)
+  
 }
