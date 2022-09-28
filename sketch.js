@@ -235,57 +235,6 @@ fill(220, 220, 220);
   
   translate(-600,0)
 }
-  
-}
-
-function drawEnderMite() {
-  translate(400, 400);
-
-  noFill();
-  strokeWeight(1);
-  square(0, 0, 200);
-  square(20, 20, 160)
-
-
-  strokeWeight(0)
-  fill(50, 0, 75)
-  rect(50, 60, 100, 80)
-
-  fill(100, 0, 0)
-  rect(80, 70, 40, 20)
-
-  translate(-400, -400)    
-  }
-
-function drawSlime() {
-  translate(0, 0);
-  
-  noFill()
-  strokeWeight(1);
-  square(0, 0, 200);
-  square(20, 20, 160)
-  
-  strokeWeight(0)
-  fill(50, 200, 100)
-  square(20, 20, 160)
-  
-  fill(50, 175, 75)
-  square(40, 40, 120)
-  square(20, 100, 20)
-  square(160, 120, 20)
-  square(80, 20, 20)
-  square(80, 160, 20)
-  
-  fill(50, 100, 50)
-  square(40, 60, 40)
-  
-  square(120, 60, 40)
-  
-  square(100, 120, 20)
-  
-  translate(0, 0);
-}
-
 
 function drawEnderMite() {
   translate(400, 400);
