@@ -266,3 +266,44 @@ function drawBee() {
 
   translate(-200, 0);
 }
+
+function setup() {
+  createCanvas(800, 600);
+  noLoop();
+}
+
+function draw() {
+  background(220);
+  noFill();
+  square(200, 200, 200);
+  enderman();
+}
+
+function enderman() {
+  translate(200, 200);
+  noStroke();
+  
+  fill(22,22,22,255)
+  square(.1, 0,200)
+  
+  fill(224,122,250,255)
+  square(.1, 90, 36)
+  
+    fill(224,122,250,255)
+  square(164, 90, 36)
+  
+   fill(224,122,250,255)
+  square(120, 90, 36)
+  
+   fill(204,0,250,255)
+  square(140, 90, 36)
+
+   fill(224,122,250,255)
+  square(40, 90, 36)
+  
+  fill(204,0,250,255)
+  square(20, 90, 36)
+  
+  (-200,-200)
+  
+}
