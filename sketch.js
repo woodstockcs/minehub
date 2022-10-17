@@ -290,7 +290,7 @@ function drawBee() {
 }
 
 function drawEnderman() {
-  translate(200, 200);
+  translate(200, 400);
   noStroke();
 
   fill(22, 22, 22, 255);
@@ -314,5 +314,5 @@ function drawEnderman() {
   fill(204, 0, 250, 255);
   square(20, 90, 36);
 
-  translate(-200, -200);
+  translate(-200, -400);
 }
