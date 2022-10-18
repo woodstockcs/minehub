@@ -317,6 +317,8 @@ function drawEnderman() {
 
   translate(-200, -400);
   
+}
+  
   function drawDrowned() {
     translate(400, 0);
   noStroke();
@@ -513,4 +515,5 @@ function drawEnderman() {
   square(175, 175, 25)
   
   translate(-400, 0); 
+    
 }
