@@ -14,6 +14,7 @@ function draw() {
   drawBee();
   drawEnderman();
   drawDrowned();
+  drawBlaze();
 }
 
 function drawWitherSkelly() {
@@ -515,5 +516,201 @@ function drawEnderman() {
   square(175, 175, 25)
   
   translate(-400, 0); 
+    
+ }
+function drawBlaze() {
+  translate(400, 200);
+  noStroke();
+  fill(255, 111, 0);
+  square(0, 0, 25);
+  
+  fill(255, 171, 0)
+  square(25, 0, 25)
+  
+  fill(229, 161, 0)
+  square(50, 0, 25)
+  
+  fill(255, 167, 38)
+  square(75, 0, 25)
+  
+  fill(255, 235, 59)
+  square(100, 0, 25)
+  
+  fill(255, 179, 0)
+  square(125, 0, 25)
+  
+  fill(206, 206, 0)
+  square(150, 0, 25)
+  
+  fill(229, 183, 115)
+  square(175, 0, 25)
+  
+  fill(255, 111, 0)
+  square(0, 25, 25)
+  
+  fill(229, 206, 114)
+  square(25, 25, 25)
+  
+  fill(229, 183, 115)
+  square(50, 25, 25)
+  
+  fill(229, 211, 53)
+  square(75, 25, 25)
+  
+  fill(206, 190, 48)
+  square(100, 25, 25)
+  
+  fill(230, 81, 0)
+  square(125, 25, 25)
+  
+  fill(229, 206, 114)
+  square(150, 25, 25)
+  
+  fill(229, 229, 0)
+  square(175, 25, 25)
+  
+  fill(255, 167, 38)
+  square(0, 50, 25)
+  
+  fill(229, 161, 0)
+  square(25, 50, 25)
+  
+  fill(229, 150, 34)
+  square(50, 50, 25)
+  
+  fill(166, 166, 0)
+  square(75, 50, 25)
+  
+  fill(220, 111, 0)
+  square(100, 50, 25)
+  
+  fill(206, 135, 31)
+  square(125, 50, 25)
+  
+  fill(255, 179, 0)
+  square(150, 50, 25)
+  
+  fill(229, 136, 0)
+  square(175, 50, 25)
+  
+  fill(229, 176, 0)
+  square(0, 75, 25)
+  
+  fill(229, 218, 201)
+  square(25, 75, 25)
+  
+  fill(66, 0, 0)
+  square(50, 75, 25)
+  
+  fill(229, 211, 53)
+  square(75, 75, 25)
+  
+  fill(255, 255, 0)
+  square(100, 75, 25)
+  
+  fill(66, 0, 0)
+  square(125, 75, 25)
+  
+  fill(229, 218, 201)
+  square(150, 75, 25)
+  
+  fill(230, 81, 0)
+  square(175, 75, 25)
+  
+  fill(229, 176, 0)
+  square(0, 100, 25)
+  
+  fill(245, 124, 0)
+  square(25, 100, 25)
+  
+  fill(255, 167, 38)
+  square(50, 100, 25)
+  
+  fill(255, 171, 0)
+  square(75, 100, 25)
+  
+  fill(255, 167, 38)
+  square(100, 100, 25)
+  
+  fill(229, 154, 0)
+  square(125, 100, 25)
+  
+  fill(206, 90, 0)
+  square(150, 100, 25)
+  
+  fill(255, 255, 0)
+  square(175, 100, 25)
+  
+  fill(229, 176, 0)
+  square(0, 125, 25)
+  
+  fill(128, 66, 0)
+  square(25, 125, 25)
+  
+  fill(149, 51, 20)
+  square(50, 125, 25)
+  
+  fill(66, 0, 0)
+  square(75, 125, 25)
+  
+  fill(124, 0, 0)
+  square(100, 125, 25)
+  
+  fill(229, 136, 0)
+  square(125, 125, 25)
+  
+  fill(230, 81, 0)
+  square(150, 125, 25)
+  
+  fill(134, 46, 18)
+  square(175, 125, 25)
+  
+  fill(206, 73, 0)
+  square(0, 150, 25)
+  
+  fill(96, 14, 14)
+  square(25, 150, 25)
+  
+  fill(119, 18, 18)
+  square(50, 150, 25)
+  
+  fill(124, 0, 0)
+  square(75, 150, 25)
+  
+  fill(66, 0, 0)
+  square(100, 150, 25)
+  
+  fill(124, 0, 0)
+  square(125, 150, 25)
+  
+  fill(149, 51, 20)
+  square(150, 150, 25)
+  
+  fill(53, 0, 0)
+  square(175, 150, 25)
+  
+  fill(216, 67, 21)
+  square(0, 175, 25)
+  
+  fill(230, 81, 0)
+  square(25, 175, 25)
+  
+  fill(149, 51, 20)
+  square(50, 175, 25)
+  
+  fill(119, 18, 18)
+  square(75, 175, 25)
+  
+  fill(124, 0, 0)
+  square(100, 175, 25)
+  
+  fill(119, 18, 18)
+  square(125, 175, 25)
+  
+  fill(66, 0, 0)
+  square(150, 175, 25)
+  
+  fill(53, 0, 0)
+  square(175, 175, 25);
     
 }
