@@ -15,6 +15,13 @@ function draw() {
   drawEnderman();
   drawDrowned();
   drawBlaze();
+  drawShulker();
+}
+
+function drawShulker() {
+  
+  
+  
 }
 
 function drawWitherSkelly() {
@@ -320,7 +327,7 @@ function drawEnderman() {
   
 }
   
-  function drawDrowned() {
+function drawDrowned() {
     translate(400, 0);
   noStroke();
   fill(40, 126, 0);
